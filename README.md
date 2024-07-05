@@ -1,3 +1,5 @@
+Issue filed at https://github.com/kubernetes/kubectl/issues/1620
+
 # Port forwarding issue
 It looks like Kubernetes port-forwarding cannot deal with a cancelled TCP request. It will show the following error and the port forwading is dead:
 ```
